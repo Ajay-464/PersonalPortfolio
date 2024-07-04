@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+          <form action="https://api.web3forms.com/submit" method="POST" id="form">
+            <h2>Get in Touch</h2>
+            <p>Leave me a message</p>
+            <input type="hidden" name="access_key" value="eacb590c-d710-418b-ac2a-10ad6accce00" />
+            <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+            <input type="checkbox" name="botcheck" id="" style="display: none;" />
+  
+            <div class="input-area">
+              
+              <input type="text" name="name" id="name" placeholder="Your Name" required />
+            </div>
+            <div class="input-area">
+              
+              <input type="email" name="email" id="email" placeholder="you@gmail.com" required  />
+            </div>
+            <div class="input-area">
+             
+              <input type="text" name="phone" id="phone" placeholder="Phone no." required />
+            </div>
+            <div class="input-area">
+              
+  
+              <textarea rows="5" name="message" id="message" placeholder="Your Message" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" required></textarea>
+            </div>
+            <div class="input-area">
+              <button type="submit" class="sendbtn">Send Message</button>
+            </div>
+            <p class="text-base text-center text-gray-400" id="result"></p>
+          </form>
+        
+
+        <div class="social-container">
+            <div class="custom-social-container">
+                <p>Contact me on</p>
+                <button class="cross-btn"><i class="fas fa-times"></i></button>
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/ajay_.464?igsh=ZDZ6ampvb2dtcmQx" target="_blank" rel="nofollow">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Ajay-464" target="_blank" rel="nofollow">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ajay-s-814835255" target="_blank" rel="nofollow">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
